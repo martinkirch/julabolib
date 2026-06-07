@@ -112,7 +112,7 @@ class TempChart(Gtk.DrawingArea):
             cr.move_to(px + pw - 14, h - 6)
             cr.show_text("now")
             cr.move_to(px, h - 6)
-            cr.show_text("old")
+            cr.show_text("-1h")
 
         for name, data in self.series.items():
             vals = data["values"]
