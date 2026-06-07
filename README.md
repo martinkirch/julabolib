@@ -11,4 +11,5 @@ Required libraries etc.
 
 # Graphical control panel
 
-Using [Joonas Konki's julabolib](https://github.com/jopekonk/julabolib), this repository also provides a graphical control panel that works with `PyGObject` (GTK/Gnome).
+Using [Joonas Konki's julabolib](https://github.com/jopekonk/julabolib), this repository also provides a graphical control panel that works with `PyGObject` (GTK/Gnome):
+start it with `./julabo_gui.py`.
