@@ -8,3 +8,7 @@ This library is meant to be used with the Economy Series CF30, CF40 models, but 
 Required libraries etc.
 * Python 3.x
 * pyserial  (Only pyserial should be installed on the system! Check with 'pip3 list'. To uninstall other serial libraries such as 'serial', use 'sudo pip3 uninstall serial')
+
+# Graphical control panel
+
+Using [Joonas Konki's julabolib](https://github.com/jopekonk/julabolib), this repository also provides a graphical control panel that works with `PyGObject` (GTK/Gnome).
